@@ -6,7 +6,7 @@ int main()
 	
 	while(scanf("%d",&num) != EOF)
 	{
-		printf("%d\n",num==0?1:0);
+		printf("%s\n",num%2!=0?"Odd":"Even");
 	}
 	return 0;
 }

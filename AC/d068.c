@@ -6,7 +6,7 @@ int main()
 	
 	while(scanf("%d",&num) != EOF)
 	{
-		printf("%d\n",num==0?1:0);
+		printf("%d\n",num>50?num-1:num);
 	}
 	return 0;
 }
