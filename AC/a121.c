@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int p[46341]={2,3,5};
+int p[10000]={2,3,5};
 int p_cnt=3;
 
 void build_prime();
@@ -15,7 +15,7 @@ int main()
 	{
 		for(i=a,n=0;i<=b;i++)
 		{
-			if(is_prime(i))
+			if(is_prime(i) && i!=1)
 			{
 				n++;
 			}
@@ -26,7 +26,7 @@ int main()
 	return 0;
 }
 
-void build_prime()
+void build_prime(int a)
 {
 	int i,j;
 	
