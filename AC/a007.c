@@ -13,7 +13,7 @@ int main()
 	
 	while(scanf("%d",&in) != EOF)
 	{
-		printf("%s\n",is_prime(in)?"質數":"非質數");
+		printf("%d\n",is_prime(in));
 	}
 		
 	return 0;
